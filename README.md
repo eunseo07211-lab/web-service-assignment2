@@ -130,7 +130,7 @@ npm run db:reset
   - 검증 증거 캡처: 테스트 결과.png, U01 검증.png, U02 검증.png, U03 검증.png, U04 검증.png, U05 검증.png (및 U05 변경 이력 캡처)
   
 - AI 사용 요약:
-  - 요구사항 명세 및 U01~U05 검증 기준 분석, src/application-service.js 내 apply, cancel, approve, revoke 상태 전이 규칙과 단일 트랜잭션 롤백·원인 이력 연결 로직 검토, npm run test:assignment 및 npm run test:advanced 테스트 검증과 U01~U05 화면 검증 순서 점검 및 README.md·결과 보고서(docs/report.pdf) 문서 정리에 활용하였으며, 모든 구현 코드와 테스트 결과는 로컬 환경에서 직접 실행·검증함.
+  - 요구사항 명세 및 U01부터 U05 검증 기준 분석, src/application-service.js 내 apply, cancel, approve, revoke 상태 전이 규칙과 단일 트랜잭션 롤백·원인 이력 연결 로직 검토, 검증 분기·대기자 유무 분기·COMMIT/ROLLBACK 분기를 포함한 승인 취소(REVOKE) 시퀀스 다이어그램 구성 및 보고서 내 AI 활용 내역 정리, npm run test:assignment 및 npm run test:advanced 테스트 검증과 U01부터 U05 화면 검증 순서 점검 및 README.md·결과 보고서(docs/report.pdf) 문서 정리에 활용하였으며, 모든 구현 코드와 테스트 결과는 로컬 환경에서 직접 실행·검증함.
 
 ## 참고 문서
 
